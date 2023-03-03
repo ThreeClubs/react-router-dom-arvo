@@ -7,7 +7,7 @@ function App() {
     <div>
       <someThing />
       <someThing>
-        <someThing exact path="/" element={<someComponent />} />
+        <someThing exact path="/" element={<someThing />} />
         {/* create two more of these components with different paths and element attributes which correspond to the remaining components */}
       </someThing>
     </div>
