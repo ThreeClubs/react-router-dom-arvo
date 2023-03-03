@@ -16,5 +16,5 @@ function App() {
 
 export default App;
 
-// BONUS CHALLENGE: This App looks TERRIBLE!!! Make it look awesome with your amazing CSS skills and post a screen for us all. 
-// if you want to -- change the content in the components as it is very generic - make it your own!
+// BONUS CHALLENGE: This App is functional but it looks TERRIBLE!!! Make it look awesome with your amazing CSS skills and post a screen for us all.
+// if you want to -- change the content in the components as it is very generic - be as creative as your want and make it your own!
