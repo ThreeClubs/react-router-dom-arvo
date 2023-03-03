@@ -1,13 +1,24 @@
-//import something from "react-router-dom"
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav>
+    <nav className="NavBar">
       <ul>
         <li>
-          <someThing to="/">what should we call our default page?</someThing>
+          <Link className="link" to="/">
+            Home
+          </Link>
         </li>
-        {/* create two more list items and put a component in each, give them a "to" attribute and text content that makes sense */}
+        <li>
+          <Link className="link" to="/about">
+            About
+          </Link>
+        </li>
+        <li>
+          <Link className="link" to="/contact">
+            Contact
+          </Link>
+        </li>
       </ul>
     </nav>
   );

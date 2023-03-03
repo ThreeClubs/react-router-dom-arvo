@@ -1,15 +1,19 @@
-//import some things from "react-router-dom"
-// import all components
-// figure out how to get the navBar to display on everypage - where do we put it?
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
+import NavBar from "./components/NavBar";
+import Contact from "./components/Contact";
+import "./App.css";
 
 function App() {
   return (
-    <div>
-      <someThing />
-      <someThing>
-        <someThing exact path="/" element={<someThing />} />
-        {/* create two more of these components with different paths and element attributes which correspond to the remaining components */}
-      </someThing>
+    <div className="App">
+      <NavBar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
